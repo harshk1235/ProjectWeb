@@ -11,6 +11,7 @@ String uname=request.getParameter("student_name");
 String father=request.getParameter("father_name");
 String sec=request.getParameter("section");
 String Dat=request.getParameter("DoB");
+String cls=request.getParameter("class_number");
 
 try
 {
@@ -30,7 +31,7 @@ value+=1;
 String rolnum=Integer.toString(value);
 
 
-String query= "Insert into student_details (Student_ID, Student_name, Father_name, Section, Date_of_Birth) values('"+value+"', '" + uname + "','" + father  + "','" + sec+ "','"  + Dat+"')";
+String query= "Insert into student_details (Student_ID, Student_name, Father_name, Class, Section, Date_of_Birth) values('"+value+"', '" + uname + "','" + father  + "','" + cls + "','" + sec+ "','"  + Dat+"')";
 
 st.executeUpdate(query);
 

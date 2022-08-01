@@ -1,10 +1,4 @@
-<html>
-
-<head>
-    <title>Try Again !</title>
-</head>
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Nunito:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500;600&family=Montserrat:wght@300;400;500&family=Nunito:wght@300&display=swap');
 
     * {
         margin: 0;
@@ -81,29 +75,3 @@ background-color: #E7F6F2;
         text-decoration: none;
         color: gray;
     }
-</style>
-
-<body>
-    <main>
-        <div class="float-child left">
-            <div class="logo">
-						<a href="index.html">
-                <img class="logo-img" src="MySchoolDesign.jpeg" alt="">
-					</a>
-            </div>
-        </div>
-        <div class="float-child right">
-            <div class="form">
-                <h1>Wrong Details </h1><br>
-                <span> Cashier Details did not match ! Please try again. <a href="login_Student.html">Login</a></span>
-                <br>
-                <span> Do not have an account? Register Student ! <a href="Registration.html">Register</a></span>
-
-                </form>
-                
-            </div>
-        </div>
-    </main>
-</body>
-
-</html>
