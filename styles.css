@@ -75,3 +75,24 @@ background-color: #E7F6F2;
         text-decoration: none;
         color: gray;
     }
+    table {
+        border-collapse: collapse; 
+    }
+     thead.thead-primary {
+        background: #25166B; 
+    }
+    thead th {
+        border: none;
+        padding: 20px 30px;
+        font-size: 14px;
+        color: #fff; 
+    }
+    tbody tr {
+        margin-bottom: 10px; 
+    }
+    tbody th,  tbody td {
+        border: none;
+        padding: 20px 30px;
+        /* border-bottom: 3px solid #25166B; */
+        font-size: 14px; 
+    }
